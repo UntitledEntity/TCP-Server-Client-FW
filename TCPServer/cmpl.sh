@@ -1,0 +1,1 @@
+g++ server.cpp encryption/encryption.h networking/tcp.h networking/tcp.cpp networking/structures.h networking/clienthandler.cpp  -o server -pthread -lcrypto -lssl $1
