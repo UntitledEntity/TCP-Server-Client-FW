@@ -3,7 +3,7 @@
 #include <fstream>
 #include <iostream>
 
-bool TCPClient::Start( )
+bool TCPClient::Start( const char* server_host, int server_port )
 {
     // Initialize Winsock
     WSADATA wsaData;
@@ -11,10 +11,6 @@ bool TCPClient::Start( )
         printf("[ E! ] Failed to initialize Winsock.\n");
         return false;
     }
-
-    // Define the server host and port
-    const char* server_host = "15.204.223.99";
-    int server_port = 2182;
 
     // Create a socket
     Socket = socket( AF_INET, SOCK_STREAM, 0 );

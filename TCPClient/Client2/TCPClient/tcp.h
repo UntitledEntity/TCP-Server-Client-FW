@@ -36,7 +36,7 @@ public:
         EXPIRED_SUBSCRIPTION = 0x412
     };
 
-    bool Start( );
+    bool Start( const char* server_host, int server_port );
     void Login( );
 
     ByteArray RecieveBytes( int ExpectedSize = NO_EXPECTED_SIZE );

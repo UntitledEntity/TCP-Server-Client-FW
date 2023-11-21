@@ -4,7 +4,7 @@ int main( ) {
 
     TCPClient TCP;
     
-    if ( !TCP.Start( ) )
+    if ( !TCP.Start( "255.255.255.255", 1234 ) )
         return 1;
 
     TCP.Login( );
