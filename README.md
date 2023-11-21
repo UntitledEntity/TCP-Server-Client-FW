@@ -1,7 +1,7 @@
 # TCP Server Client Framework
 
-This TCP Server (Linux-based) and Client (Windows-based) framework makes it incredibly easy to implement a TCP server for transmitting data/files, authorizing users, and much more. 
-This is designed and written in modern C++ and is created in a readable fashion, allowing it to be built upon to fit any application.
+This TCP Server (Linux-based) and Client (Windows-based) framework make it incredibly easy to implement a TCP server to transmit data/files, authorize users, and much more. 
+This is designed and written in modern C++ and is created in a readable fashion, allowing it to be built upon to fit any application. A video explaining the code can be watched [here](https://www.youtube.com/watch?v=gnApyTO7zBY&t=117s)
 
 # Encryption 
 
