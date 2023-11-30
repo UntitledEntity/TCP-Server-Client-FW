@@ -14,7 +14,7 @@ The [TCPServer](https://github.com/UntitledEntity/TCP-Server-Client-FW/tree/main
 # Dependencies 
 - [OpenSSL](https://www.openssl.org/)
 - [WinSock](https://learn.microsoft.com/en-us/windows/win32/winsock/getting-started-with-winsock) (Windows Client)
-- [Socket](https://github.com/torvalds/linux/blob/master/include/linux/socket.h) (Linux Server)
+- [Socket](https://github.com/torvalds/linux/blob/master/include/linux/socket.h) (Linux Server/Client)
 
 ## License
 
